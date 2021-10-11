@@ -1,0 +1,125 @@
+.add-manage-beneficiary{
+    width: 100%;
+    height: 100%;
+   display: inline-block;
+  }
+  .beneficiarytype{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .beneficiaryname{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .beneficiary-account-number{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .re-beneficiary-account-number{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .IFSC-Code{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .beneficiary-email{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .beneficiary-account-type{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  input[type=beneficiaryname]{
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin: 4px 180px;
+    box-sizing: border-box;
+  }
+  input[type=accountnumber] {
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin: 4px 110px;
+    box-sizing: border-box;
+  }
+  input[type=reaccountnumber] {
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin:4px 52px;
+    box-sizing: border-box;
+  }
+  input[type=ifsccode] {
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin:4px 225px;
+    box-sizing: border-box;
+  }
+  .account-type{
+    width: 20%;
+    margin:4px 195px;
+    box-sizing: border-box;
+  }
+  input[type=beneficiary-email] {
+    width: 20%;
+    margin:4px 260px;
+    box-sizing: border-box;
+  }
+  .selected-account-number{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 10px;
+  }
+  .payment-checkbox{
+    padding: 10px;
+    display: inline-block;
+  }
+  #payment-checkbox_id{
+    margin:4px 10px;
+    padding: 10px;
+  }

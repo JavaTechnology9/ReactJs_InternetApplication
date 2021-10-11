@@ -1,0 +1,491 @@
+
+.userBodyInformation{
+    width: 100%;
+    height: 100;
+}
+.userinformation{
+    width: 100%;
+    height: 40px;
+    /* background-color: seagreen; */
+}
+.dateinfo{
+    font-size: 15px;
+    font-weight: initial;
+    background: rgb(248, 248, 248);
+    text-align: center;
+    background-color: #f4f8fa;
+    border: 1px solid #ccc; /* Green border */
+    color: rgb(20, 5, 5); /* White text */
+    padding: 12px; 
+    border-radius: 4px;
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: inline-block; /* Make the buttons appear below each other */
+   
+}
+.accountprofile{
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 4px;
+   
+}
+.accountleftSidebar{
+    border: 1px solid rgb(216, 216, 216);
+    flex: 20%;
+    /* padding: 5px; */
+    height: 550px;
+    background: rgb(248, 248, 248);
+    /* padding: 12px 5px;
+    margin: 4px 4px; */
+    display: inline-block;
+}
+.accountrightSidebar{
+    border: 1px solid rgb(216, 216, 216);
+    flex: 80%;
+    /* padding: 5px; */
+    height: 550px;
+    background: rgb(248, 248, 248);
+    /* padding: 12px 24px;
+    margin: 4px 4px; */
+    display: inline-block;
+}
+.userheader {
+    overflow: hidden;
+    background-color: #5bbdf5;
+  }
+  
+  .userheaderFields {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .userheaderFields:hover{
+    background-color: #ddd;
+    border: 1px solid rgb(216, 216, 216);
+  }
+  .userheaderlogo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .active:hover {
+    background-color: rgb(238, 117, 17);
+    color: black;
+  }
+ 
+  .header-right {
+    float: right;
+  }
+
+  .accountSummary{
+    background-color: #f4f8fa;
+    border: 1px solid #ccc; /* Green border */
+    color: rgb(20, 5, 5); /* White text */
+    padding: 12px; 
+    border-radius: 4px;
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: inline-block; /* Make the buttons appear below each other */
+    font-size: 15px; 
+  } 
+  /* Add a background color on hover */
+button:hover {
+    background-color: #5083f1;
+  }
+  .accountDetail{
+      width: 100%;
+      height: 50px;
+      background-color: lemonchiffon;
+      background-color: #f4f8fa;
+        border: 1px solid #ccc; /* Green border */
+        color: rgb(20, 5, 5); /* White text */
+        padding: 12px; 
+        border-radius: 4px;
+        cursor: pointer; /* Pointer/hand icon */
+        width: 100%; /* Set a width if needed */
+        display: inline-block; /* Make the buttons appear below each other */
+        font-size: 20px;
+        font-weight: bold;
+  }
+  .userSummary{
+    background-color: #f4f8fa;
+    /* border: 1px solid #ccc;  */
+    color: rgb(20, 5, 5); /* White text */
+    padding: 20px; 
+    border-radius: 4px;
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: inline-block; /* Make the buttons appear below each other */
+    font-size: 15px; 
+  }
+  #customers {
+    font-size: 15px;
+    font-weight: initial;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 2px solid #ddd;
+    padding:8px;
+    width: 18%;
+   
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background-color: #4CAF50; */
+    color: white;
+  }
+  #accountSummary{
+    font-size: 15px;
+    font-weight: initial;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #accountSummary td, #accountSummary th {
+    border: 2px solid #ddd;
+    padding:8px;
+    width: 50%;
+   
+  }
+  #accountSummary tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #accountSummary tr:hover {background-color: #ddd;}
+  #quick-transfer-header{
+    padding-top: 25px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: rgb(27, 3, 3);
+    width: 100%;
+    border-collapse:collapse;
+    border: 0px;
+   
+  }
+  #quick-transfer-header td, #quick-transfer-header th {
+    border: 2px solid #ddd;
+    padding:8px;
+    width: 25%;
+    text-align: center;
+    font-size: larger;   
+  }
+  #quick-transfer-header tr {
+    border-collapse:collapse;
+  }
+
+  .userAddBeneficiary{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #f4f8fa;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+  }
+  .transaction_image{
+    width: 50px;
+    height: 50px;
+    
+  }
+  .quickTransfer{
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+  }
+  .manageBeneficiary{
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+  }
+  .FundsTransfer{
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+  }
+  .accounts-to-others{
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+  }
+  .other-bank-transfer{
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+  }
+  .IMPS-transfer{
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+  }
+  .quick-transfer-body{
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+  }
+  .quick-trasfer-account-info{
+    width: 100%;
+    height: 80px;
+   /* background-color: blue; */
+  }
+  .transferinfo{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(83, 86, 245);
+    font-weight: bold;
+  }
+  .quick-transfer-select-account{
+    width: 100%;
+    height: 100%;
+   display: inline-block;
+  }
+  .select-account{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .select-account1{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .select-account2{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .select-account3{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .select-account4{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  .select-account5{
+    flex: 33%;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding: 2px;
+  }
+  input[type=beneficiaryname]{
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin: 4px 180px;
+    box-sizing: border-box;
+  }
+  input[type=accountnumber] {
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin: 4px 110px;
+    box-sizing: border-box;
+  }
+  input[type=reaccountnumber] {
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin:4px 52px;
+    box-sizing: border-box;
+  }
+  input[type=paymentOption] {
+    width: 20%;
+    /* padding: 12px 100px; */
+    margin:4px 185px;
+    box-sizing: border-box;
+  }
+  .purpose{
+    width: 20%;
+    margin:4px 235px;
+    box-sizing: border-box;
+  }
+  input[type=amount] {
+    width: 20%;
+    margin:0 235px;
+    box-sizing: border-box;
+  }
+  .submitTransfer{
+    background-color: #4CAF50; /* Green */
+    border: 1px solid #ccc;
+    border-radius: 5pc;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+  }
+  .account-statement-info{
+    /* flex: 33%; */
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    margin-left: 20px;
+    padding:6px;
+  }
+  .account-statement-acccount-span{
+    /* display: block; */
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgba(0, 1, 7, 0.89);
+    margin:4px 120px;
+    padding:6px;
+   
+  }
+  .account-statement-acccountinfo{
+    border-bottom: 1px solid rgb(5, 0, 0);
+  }
+  #account-statement-checkbox{
+    padding-left: 35px;
+  }
+  .account-statment-select-option-name{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    /* margin:4px 120px; */
+    padding:20px;
+  } 
+  .account-statment-select-option{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgba(0, 1, 7, 0.89);
+    /* margin:4px 120px; */
+    padding:20px;
+  }
+  #account-statment-select-options{
+    /* padding:20px; */
+    margin:4px 10px;
+  }
+  .startdate{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgba(0, 1, 7, 0.89);
+    padding:20px;
+  }
+  .account-statement-submit-cancel-button{
+    padding-left: 500px;
+  }
+  .account-statement-submit-button,.account-statement-cancel-button, .login-password-otp-submit{
+    font-size: 14px;
+    font-weight: initial;
+    margin:2px 10px;
+    background-color: #81af4c; /* Green */
+    border: 1px solid #ccc;
+    border-radius: 1pc;
+    
+  }
+  .login-password-select-mode{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(104, 124, 240);
+    /* margin:4px 120px; */
+    padding:20px;
+  }
+  .login-password-generate-otp{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(1, 2, 12);
+    /* margin:4px 120px; */
+    padding:20px;
+  }
+  #login-password-checkbox{
+      margin:4px 12px;
+  }
+  .login-password-otp-header-info{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(24, 41, 236);
+    /* margin:4px 120px; */
+    padding:20px;
+  }
+  .login-password-enter-otp-label{
+    font-size: 14px;
+    font-weight: initial;
+    border-collapse: collapse;
+    color: rgb(0, 1, 8);
+    /* margin:4px 120px; */
+    padding:20px;
+  }
+  #login-password-enter-otp{
+    margin:4px 12px;
+  }
+  .submit-login-password{
+    width: 30%;
+    height: 550px;
+    padding: 20px;
+  }
+  
